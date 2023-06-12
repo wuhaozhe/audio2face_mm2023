@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inference.py --name meshtalk_inference  --root_data_dir ../../Meshtalk/meshtalk_training_data --mesh_sequence_fname mesh_sequences --audio_fname audio --template_fname template_regen --face_mean face_axis_mean.npy --face_std face_axis_std.npy  --batch_size=8 --dataset meshtalk --epoch=120

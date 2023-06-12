@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inference.py --name voca_inference --root_data_dir ../../VOCA/vocaset_training_data --mesh_sequence_fname verts_data.pkl --audio_fname audio --template_fname templates --face_mean face_axis_mean.npy --face_std face_axis_std.npy  --batch_size=8 --dataset voca --epoch=120
