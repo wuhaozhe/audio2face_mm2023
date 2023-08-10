@@ -1,5 +1,7 @@
 ## audio2face MM 2023
 
+This is the official code for MM2023 paper: *Speech-Driven 3D Face Animation with Composite and Regional Facial Movements.*
+
 Given a template 3D face, driven 3D face sequence, and driven speech audio, we synthesize 3D face sequence synchronized with the speech audio, and modulated by speech-independent factors of the driven 3D face sequence.
 
 ### Installation
@@ -10,6 +12,15 @@ We train and test based on Python3.8 and Pytorch. To install the dependencies ru
 pip install -r requirements.txt
 ```
 Additionallly, you need to install pytorch3d following these [instructions](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md).
+
+### Dataset preparation
+------
+We provide the processed voca data in `voca.zip`. Please unzip the zip file in the root folder. The zip file can be downloaded in the following link:
+
+[Download](https://pan.baidu.com/s/1IEUbIOfFXFthnQE5rp4YgA)
+
+Extraction code: fgqi
+
 
 ### Training
 ------
@@ -53,3 +64,15 @@ The pretrained VOCASET, meshtalk dataset, and BIWI datset models can be found in
 [Download](https://pan.baidu.com/s/1h2kVQ24xxo5m6wdBY1VUdQ)
 
 Extraction code: tmi7
+
+### Citation
+------
+
+```
+@inproceedings{wu2023audio2face,
+  title={Speech-Driven 3D Face Animation with Composite and Regional Facial Movements},
+  author={Wu, Haozhe and Zhou, Songtao, and Jia, Jia and Xing, Junliang and Wen, Qi and Wen, Xiang},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  year={2023}
+}
+```
